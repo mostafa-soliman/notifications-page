@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header_notifi">
+          <p>Notification</p>
+          <a href="#">3</a>
+        </div>
+        <a href="#" onclick="unmarAll()" class="header_mark"
+          >Mark all as read</a
+        >
+      </header>
+      <section>
+        <!-- By setting 'this' as an argument in the unmark() function, the clicked element is passed as a parameter. -->
+        <a class="unread" onclick="unmark(this)" href="#">
+          <img src="assets/img/avatar-mark-webber.webp" alt="Mark Webber" />
+          <div class="text_content">
+            <p>
+              <span class="user">Mark Webber</span>
+              reacted to your recent post
+              <span class="activation">My first tournament today!</span>
+              <span class="red_dot"></span>
+            </p>
+            <p class="time">1m ago</p>
+          </div>
+        </a>
+        <!-- By setting 'this' as an argument in the unmark() function, the clicked element is passed as a parameter. -->
+
+        <a class="unread" onclick="unmark(this)" href="#">
+          <img src="assets/img/avatar-angela-gray.webp" alt="Angela Gray" />
+          <div class="text_content">
+            <p>
+              <span class="user">Angela Gray</span>
+              followed you
+              <span class="red_dot"></span>
+            </p>
+            <p class="time">5m ago</p>
+          </div>
+        </a>
+        <!-- By setting 'this' as an argument in the unmark() function, the clicked element is passed as a parameter. -->
+
+        <a class="unread" onclick="unmark(this)" href="#">
+          <img
+            src="assets/img/avatar-jacob-thompson.webp"
+            alt="Jacob Thompson"
+          />
+          <div class="text_content">
+            <p>
+              <span class="user">Jacob Thompson</span>
+              has joined your group
+              <span class="activation">Chess Club</span>
+              <span class="red_dot"></span>
+            </p>
+            <p class="time">1 day ago</p>
+          </div>
+        </a>
+        <a href="#">
+          <img
+            src="assets/img/avatar-rizky-hasanuddin.webp"
+            alt="Jacob Thompson"
+          />
+          <div class="text_content">
+            <p>
+              <span class="user">Rizky Hasanuddin</span>
+              sent you a private message
+            </p>
+            <p class="time">5 days ago</p>
+            <p class="private">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </a>
+        <a href="#">
+          <img
+            src="assets/img/avatar-kimberly-smith.webp"
+            alt="Kimberly Smith"
+          />
+          <div class="text_content">
+            <p>
+              <span class="user">Kimberly Smith</span>
+              commented on your picture
+            </p>
+            <p class="time">1 weeks ago</p>
+          </div>
+          <img
+            class="picture"
+            src="assets/img/image-chess.webp"
+            alt="image chess"
+            srcset=""
+          />
+        </a>
+        <a href="#">
+          <img
+            src="assets/img/avatar-nathan-peterson.webp"
+            alt="Nathan Peterson"
+          />
+          <div class="text_content">
+            <p>
+              <span class="user">Nathan Peterson</span>
+              reacted to your recent post
+              <span class="activation"
+                >5 end-game strategies to increase your win rate</span
+              >
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </a>
+        <a href="#">
+          <img src="assets/img/avatar-anna-kim.webp" alt="Anna Kim" />
+          <div class="text_content">
+            <p>
+              <span class="user">Anna Kim</span>
+              left the group
+              <span class="activation">Chess Club </span>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </a>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/mostafa-soliman-fadali/"
+        target="_blank"
+        >mostafa soliman fadali</a
+      >.
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
