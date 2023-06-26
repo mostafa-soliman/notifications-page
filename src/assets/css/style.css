@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Plus_Jakarta_Sans;
-  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+  src: url(../fonts/PlusJakartaSans-VariableFont_wght.ttf);
 }
 html {
   font-size: 16px;
@@ -151,8 +151,6 @@ section a {
 }
 
 @media (min-width: 992px) {
-  main {
-  }
 }
 
 @media (min-width: 1200px) {
