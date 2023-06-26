@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Plus_Jakarta_Sans;
+  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+html {
+  font-size: 16px;
+  font-family: Plus_Jakarta_Sans;
+}
+
+body {
+  background-color: #f9fafe;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  margin: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------------------------------- */
+/*          start header              */
+/* ---------------------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+header p {
+  color: hsl(224, 21%, 14%);
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.header_notifi a {
+  background-color: #08337a;
+  padding: 4px 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+header a {
+  color: #78797d;
+  align-self: flex-end;
+  font-weight: 500;
+}
+/* ---------------------------------- */
+/*           end header               */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/*           start section            */
+/* ---------------------------------- */
+
+section a.unread {
+  background-color: hsl(211, 68%, 94%);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.user {
+  color: #080a16;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.text_content p:first-child {
+  color: #6c6f75;
+  font-weight: 500;
+}
+.activation {
+  color: #6d7077;
+  font-weight: 700;
+}
+p .red_dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+.text_content p.time {
+  color: #94979e;
+  font-weight: 500;
+}
+section a {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.picture {
+  margin-left: auto;
+}
+.text_content p.private {
+  padding: 15px;
+  border: thin solid #94979e71;
+  margin-top: 15px;
+  text-align: justify;
+  color: #6c6f75d3;
+  font-weight: 500;
+}
+
+/* ---------------------------------- */
+/*             end section            */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/*           start footer             */
+/* ---------------------------------- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* ---------------------------------- */
+/*           end footer             */
+/* ---------------------------------- */
+
+@media (min-width: 576px) {
+  main {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+  }
+}
