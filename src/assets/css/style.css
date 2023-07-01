@@ -75,9 +75,9 @@ header a {
   align-self: flex-end;
   font-weight: 500;
 }
-header a:hover {
+/* header a:hover {
   color: var(--blue);
-}
+} */
 /* ---------------------------------- */
 /*           end header               */
 /* ---------------------------------- */
