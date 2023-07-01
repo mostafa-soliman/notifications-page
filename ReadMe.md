@@ -22,7 +22,7 @@ JavaScript: Used for adding interactivity and implementing the functionality of 
 
 To run the project locally, follow these steps:
 
-Clone the repository: [ git clone](Link) .
+Clone the repository: [ git clone](https://github.com/mostafa-soliman/notifications-page.git).
 Navigate to the project directory.
 Open the index.html file in your preferred web browser.
 
